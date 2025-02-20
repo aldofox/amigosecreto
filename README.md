@@ -4,44 +4,11 @@ Amigo Secrerto com JavaScript
 
 2) Projeto:
 
-
-# Índice 
-
-* [Descrição do Projeto](#descrição-do-projeto)
-* [Status do Projeto](#status-do-Projeto)
-* [Funcionalidades e Demonstração da Aplicação](#funcionalidades-e-demonstração-da-aplicação)
-* [Acesso ao Projeto](#acesso-ao-projeto)
-* [Tecnologias utilizadas](#tecnologias-utilizadas)
-* [Pessoas Contribuidoras](#pessoas-contribuidoras)
-* [Pessoas Desenvolvedoras do Projeto](#pessoas-desenvolvedoras)
-* [Licença](#licença)
-* [Conclusão](#conclusão)
-
 Descrição do Projeto
 
 Esse projeto tem como finalidade realizar um sortei de amigo secreto, onde são inseridos alguns nome de amigo no campo (input), para cada nome digita tem que clicar no botão adicionar e uma lista começa a ser criada logo abaixo do campo onde foi digitado o nome. 
 
 Apos a inserção de variios nome eh feito o sortei clicando no botão sortear amigo onde ira aparecer uma mensangem infomando o nome do seu amigo secreto.
-
-    Tradução: Uma biblioteca Java para acessar a API Core v2 baseada em HTTP do Dropbox. Este SDK também oferece suporte ao Core API v1 mais antigo, mas esse suporte será removido em algum momento.
-
-Ou pode detalhar mais, como feito no projeto GlicoCare e apresentar figuras que exemplificam o projeto, caso tenha:
-README do repositório GlicoCare, com a parte da Descrição do projeto que seria “Projeto em desenvolvimento para disciplina Instrumentação Biomédica II do curso de Engenharia Biomédica. O GlicoCare é um sistema de telemonitoramento domiciliar para a atenção especializada de pessoas acometidas por diabetes mellitus. O sistema permitirá o monitoramento diário, contínuo e remoto do nível de glicose no sangue (glicemia), possibilitando que familiares, cuidadores, profissionais da saúde ou o próprio paciente acompanhem o estado clínico do mesmo.” seguido de uma imagem descritiva do funcionamento do projeto.
-Status do Projeto
-
-Caso você opte por não utilizar Badges sobre o status do projeto, é interessante que você coloque essa informação no próprio texto mesmo. Exemplo:
-
-> :construction: Projeto em construção :construction:
-
-Resultado:
-
-    🚧 Projeto em construção 🚧
-
-Ou caso queira centralizar:
-
-<h4 align="center"> 
-    :construction:  Projeto em construção  :construction:
-</h4>
 
 Nesse exemplo foi utilizado o emoji :construction:, mas você pode utilizar em qualquer lugar do arquivo, como antes dos subtítulos. Nesse Gist do Rafael Xavier de Souza, você pode encontrar uma variedade de emojis para utilizar no seu README e deixá-lo mais descontraído.
 Funcionalidades e Demonstração da Aplicação
