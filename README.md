@@ -2,36 +2,11 @@
 
 Amigo Secrerto com JavaScript
 
-Caso queira deixar centralizado, pode utilizar a tag align do HTML também, dessa forma:
+2) Projeto:
 
-<p align="center">
-<img loading="lazy" src="http://img.shields.io/static/v1?label=STATUS&message=EM%20DESENVOLVIMENTO&color=GREEN&style=for-the-badge"/>
-</p>
-
-2) Stars do projeto:
-
-Código gerado:
-
-![GitHub Org's stars](https://img.shields.io/github/stars/camilafernanda?style=social)
-
-Resultado:
-GitHub Org's stars
-Índice
-
-O GitHub gera automaticamente um índice para arquivos README, tendo como base os títulos da seção. Para visualizá-lo, selecione o ícone de menu no canto superior esquerdo do arquivo.
-Arquivo README.md no GitHub com destaque na opção de menu no canto superior esquerdo, onde se tem uma listagem de Tópicos, sendo Descrição do projeto, funcionalidades, aplicação, ferramentas utilizadas, acesso ao projeto, abrir e rodar o projeto e desenvolvedores.
-
-Principalmente em READMEs extensos, essa é uma ferramenta excelente para navegar pelo documento, pois redireciona o usuário para o tópico selecionado.
-
-Entretanto, caso você tenha interesse em fazer seu próprio índice para ser visualizado no arquivo, também é possível fazer em Markdown.
-
-Exemplo:
 
 # Índice 
 
-* [Título e Imagem de capa](#Título-e-Imagem-de-capa)
-* [Badges](#badges)
-* [Índice](#índice)
 * [Descrição do Projeto](#descrição-do-projeto)
 * [Status do Projeto](#status-do-Projeto)
 * [Funcionalidades e Demonstração da Aplicação](#funcionalidades-e-demonstração-da-aplicação)
@@ -42,27 +17,11 @@ Exemplo:
 * [Licença](#licença)
 * [Conclusão](#conclusão)
 
-Resultado:
-
-    Título e Imagem de capa
-    Badges
-    Índice
-    Descrição do Projeto
-    Status do Projeto
-    Funcionalidades e Demonstração da Aplicação
-    Acesso ao Projeto
-    Tecnologias utilizadas
-    Pessoas Contribuidoras
-    Pessoas Desenvolvedoras do Projeto
-    Licença
-    Conclusão
-
 Descrição do Projeto
 
-Como é um objetivo do arquivo README descrever o projeto, é legal que você apresente logo após o título ou imagem de capa e/ou Badges caso tenha, uma breve explicação do seu projeto com seu objetivo principal.
+Esse projeto tem como finalidade realizar um sortei de amigo secreto, onde são inseridos alguns nome de amigo no campo (input), para cada nome digita tem que clicar no botão adicionar e uma lista começa a ser criada logo abaixo do campo onde foi digitado o nome. 
 
-Você pode adotar uma descrição mais objetiva, como a do Dropbox Core SDK for Java 8+:
-README do repositório Dropbox Core SDK for Java 8+ com destaque na descrição “A Java library to access Dropbox's HTTP-based Core API v2. This SDK also supports the older Core API v1, but that support will be removed at some point.”
+Apos a inserção de variios nome eh feito o sortei clicando no botão sortear amigo onde ira aparecer uma mensangem infomando o nome do seu amigo secreto.
 
     Tradução: Uma biblioteca Java para acessar a API Core v2 baseada em HTTP do Dropbox. Este SDK também oferece suporte ao Core API v1 mais antigo, mas esse suporte será removido em algum momento.
 
