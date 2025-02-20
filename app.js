@@ -1,4 +1,4 @@
-let listaNomes = [];
+let amigos = [];
 
 function adicionarAmigo() {
     const input = document.getElementById("amigo");
@@ -10,8 +10,8 @@ function adicionarAmigo() {
         alert("Por favor, digite um nome!");
     } else if (/\d/.test(nome)) {// Nao permite que o usuario digite um numero ou um nome com numero
         alert("O nome não pode conter números!");
-    } else if (!listaNomes.includes(nome)) {
-        listaNomes.push(nome);
+    } else if (!amigos.includes(nome)) {
+        amigos.push(nome);
         atualizarLista();
         input.value = "";
         input.focus();
@@ -24,7 +24,7 @@ function atualizarLista() {
     const listaAmigos = document.getElementById("listaAmigos");
     listaAmigos.innerHTML = "";
 
-    listaNomes.forEach((amigo) => {
+    amigos.forEach((amigo) => {
         const li = document.createElement("li");
         li.textContent = amigo;
         listaAmigos.appendChild(li);
@@ -32,23 +32,23 @@ function atualizarLista() {
 }
 
 function sortearAmigo() {
-    if (listaNomes.length < 2) {
+    if (amigos.length < 2) {
         alert("Adicione pelo menos dois amigos para sortear!");
         return;
     }
 
-    let sorteio = [...listaNomes];
+    let sorteio = [...amigos];
     let resultado = [];
 
-    for (let i = 0; i < listaNomes.length; i++) {
-        let possiveis = sorteio.filter(nome => nome !== listaNomes[i]);
+    for (let i = 0; i < amigos.length; i++) {
+        let possiveis = sorteio.filter(nome => nome !== amigos[i]);
         
         if (possiveis.length === 0) {
             return sortearAmigo(); // Reinicia o sorteio caso chegue a um beco sem saída
         }
 
         let escolhido = possiveis[Math.floor(Math.random() * possiveis.length)];
-        resultado.push({ amigo: listaNomes[i], sorteado: escolhido });
+        resultado.push({ amigo: amigos[i], sorteado: escolhido });
         sorteio.splice(sorteio.indexOf(escolhido), 1);
     }
 
@@ -61,14 +61,14 @@ function exibirResultado(resultado) {
 
     resultado.forEach(par => {
         const li = document.createElement("li");
-        li.textContent = `${par.amigo} → ${par.sorteado}`;
+        li.textContent = `Seu amigo secreto é: ${par.amigo} → ${par.sorteado}`;
         li.style.color = "green";
         listaResultado.appendChild(li);
     });
 }
 
 function limparNomes() {
-    listaNomes = [];
+    amigos = [];
     document.getElementById("listaAmigos").innerHTML = "";
     document.getElementById("resultado").innerHTML = "";
 }
